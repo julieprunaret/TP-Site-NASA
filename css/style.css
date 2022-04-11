@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+    font: 1rem/1.5 'Titillium Web', Arial, Helvetica, sans-serif;
+    background-color: black; 
+}
+
+#page{
+    width: 1360px; 
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#searchBar{
+ background: #333333;
+ color: whitesmoke;
+ border: 0px;
+ height: 40px;
+ padding-left: 10px;
+}
+
+h1{
+    width: 10%;
+}
+
+h2{
+    font-size: 1.1em;;
+    display: block;
+    width: auto;
+    background-color: #5d7fb9;
+    color: white;
+    margin: 0;
+    padding: 6px 12px;
+    bottom: 40px;
+    position: absolute;
+}
+
+.boxH3{
+    margin: 0;
+    background-color: white ; 
+    width: 100%;
+    position: absolute;
+    opacity: 90%;
+}
+
+h3{
+    padding: 6px 12px;
+    color: black ; 
+    margin: 0;
+} 
+header{
+    height: auto;
+    width: auto;
+    background-image: url("../img/starfield-banner.jpg");
+    color: white;
+    display: flex;
+    position: sticky;
+    top: 0; 
+    z-index: 10;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    padding:0px;
+    margin: 0
+}
+header #nav1{
+    align-self: flex-end;
+    font-size: 1.3em;
+    top: 0;
+    right: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#nav1 li{
+    padding: 10px;
+}
+
+
+#nav1 li:hover{
+    background-color: darkblue;
+}
+
+
+#nav2 li{
+    margin: 10px 0;
+    padding: 0 10px ;
+}
+
+
+#nav2 li:hover{
+    background-color: gainsboro;
+}
+
+
+header #nav2{
+    background-color: #555;
+    font-size: 0.9em;
+    height: auto;
+    align-self: flex-start;
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+li{
+    list-style-type: none;
+    border-left: 1px solid white;
+    /* margin: 10px; */
+    /* padding-left: 10px; */}
+ 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.noBorder{
+    border-left: 0.1px ;
+}
+
+main section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+ 
+#img1{ 
+    background-image: url("../img/lucy_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    position: relative;
+}
+
+main section > div{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articleSize1{
+    width: 670px;
+    height: 615px;
+    margin: 5px;
+}
+
+.articleSize3{
+    width: 330px;
+    height: 300px;
+    margin: 5px;
+}
+
+.articleSize2{
+    height: 300px;
+    width: 670px;
+    margin: 5px;
+
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    position: relative;
+}
+
+#img2{
+    background-image: url("../img/pia24836-c1-16_0.jpg");
+}
+#img11{
+    background-image: url("../img/image_42952.jpeg");
+}
+#img10{
+    background-image: url("../img/iss065e257482.jpeg");
+}
+#img4{
+    background-image: url("../img/iss065e334875.jpg");
+}
+#img5{
+    background-image: url("../img/51522053003_dedef32d58_o.jpeg");
+}
+#img6{
+    background-image: url("../img/gn_cover_instagram_1080x1350_1.jpg");
+}
+#img7{
+    background-image: url("../img/acd21-0008-095_nhq202105040017.jpg");
+}
+#img8{
+    background-image: url("../img/51522053003_dedef32d58_o.jpeg");
+}
+#img3{
+    background-image: url("../img/steam_day_1920x1080.jpg");
+}
+#img9{
+    background-image: url("../img/iss065e212155.jpg");
+}
+
+button{
+    background-color: #15418c;
+    color: white;
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 5px;
+    width: 100%;
+    margin: 20px auto;
+    border: 0px;
+    height: 40px;
+}
+
+footer{
+    height: 150px;
+    position: relative;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 0 0 30px 0;
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+footer nav ul{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
+footer nav ul li{
+    border-left: 0px;
+}
+footer nav a{
+    color: #5d7fb9;
+    text-decoration:underline;
+}
+
+footer div img{
+    width: 80px;
+    height: auto;
+}
